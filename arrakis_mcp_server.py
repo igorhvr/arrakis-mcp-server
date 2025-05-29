@@ -31,7 +31,7 @@ logger = logging.getLogger("arrakis-mcp")
 mcp = FastMCP("arrakis")
 
 # Default Arrakis server URL
-DEFAULT_ARRAKIS_URL = "http://localhost:7000"
+DEFAULT_ARRAKIS_URL = "http://localhost:7000/v1"
 # Will be set in main.
 sandbox_manager = None
 
